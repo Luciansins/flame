@@ -16,7 +16,7 @@ html , body{
  }
 
 .daterangepicker .ranges li {
-    color: #73879C
+    color: #F6F7F2
 }
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
@@ -53,7 +53,7 @@ html , body{
 }
 .daterangepicker td.in-range {
     background: #E4E7EA;
-    color: #73879C
+    color: #F6F7F2
 }
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
@@ -105,7 +105,7 @@ html , body{
     color: #1ABB9C
 }
 .daterangepicker.picker_2 .calendar-table thead tr:first-child {
-    color: #73879C
+    color: #F6F7F2
 }
 .daterangepicker.picker_3 .calendar-table thead tr:first-child {
     color: #fff;
@@ -351,7 +351,7 @@ html , body{
     position: fixed
 }
 body .container.body .right_col {
-    background: #F7F7F7
+    background: #262626
 }
 .nav-md .container.body .right_col {
     padding: 10px 20px 0;
@@ -442,7 +442,7 @@ body .container.body .right_col {
 .bg-white {
     background: #fff !important;
     border: 1px solid #fff !important;
-    color: #73879C
+    color: #F6F7F2
 }
 .bg-green {
     background: #1ABB9C !important;
@@ -491,11 +491,13 @@ body .container.body .right_col {
     background: #D9DEE4
 }
 body {
-    color: #73879C;
-    background: #F7F7F7;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFF;
+    background: #262626;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 700;
     line-height: 1.471
 }
 .main_container .top_nav {
@@ -1062,7 +1064,7 @@ h2 {
     margin-bottom: 10px;
     padding: 10px 17px;
     display: inline-block;
-    background: #fff;
+    background: #424242;
     border: 1px solid #E6E9ED;
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
@@ -1473,7 +1475,7 @@ div.box {
     background-color: #E5E5FF
 }
 ul.msg_list li {
-    background: #f7f7f7;
+    background: #262626;
     padding: 5px;
     display: -ms-flexbox;
     display: flex;
@@ -2143,7 +2145,7 @@ button,
 }
 .editor.btn-toolbar {
     zoom: 1;
-    background: #F7F7F7;
+    background: #262626;
     margin: 5px 2px;
     padding: 3px 0;
     border: 1px solid #EFEFEF
@@ -2926,7 +2928,7 @@ img.avatar {
     display: inline-block;
     border-radius: 2px;
     padding: 2px;
-    background: #f7f7f7;
+    background: #262626;
     border: 1px solid #e6e6e6
 }
 ul.messages li .message_date {
@@ -3119,7 +3121,7 @@ ul.project_files li a i {
 }
 .caption {
     padding: 9px 5px;
-    background: #F7F7F7
+    background: #262626
 }
 .caption p {
     margin-bottom: 5px
@@ -3240,10 +3242,10 @@ ul.project_files li a i {
     padding-top: 2px
 }
 .tabs-left {
-    border-right: 1px solid #F7F7F7
+    border-right: 1px solid #262626
 }
 .tabs-right {
-    border-left: 1px solid #F7F7F7
+    border-left: 1px solid #262626
 }
 .tabs-left>li,
 .tabs-right>li {
@@ -3259,27 +3261,27 @@ ul.project_files li a i {
 .tabs-left>li.active>a,
 .tabs-left>li.active>a:hover,
 .tabs-left>li.active>a:focus {
-    border-bottom-color: #F7F7F7;
+    border-bottom-color: #262626;
     border-right-color: transparent
 }
 .tabs-right>li.active>a,
 .tabs-right>li.active>a:hover,
 .tabs-right>li.active>a:focus {
-    border-bottom: 1px solid #F7F7F7;
+    border-bottom: 1px solid #262626;
     border-left-color: transparent
 }
 .tabs-left>li>a {
     border-radius: 4px 0 0 4px;
     margin-right: 0;
     display: block;
-    background: #F7F7F7;
+    background: #262626;
     text-overflow: ellipsis;
     overflow: hidden
 }
 .tabs-right>li>a {
     border-radius: 0 4px 4px 0;
     margin-right: 0;
-    background: #F7F7F7;
+    background: #262626;
     text-overflow: ellipsis;
     overflow: hidden
 }
@@ -3399,7 +3401,7 @@ ul.project_files li a i {
     font-size: 35px
 }
 .login {
-    background: #F7F7F7
+    background: #262626
 }
 .login .fa-paw {
     font-size: 26px
@@ -3669,7 +3671,7 @@ div[data-role="editor-toolbar"] {
     min-height: 38px
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #73879C;
+    color: #F6F7F2;
     padding-top: 5px
 }
 .select2-container--default .select2-selection--multiple .select2-selection__rendered {
@@ -3703,7 +3705,7 @@ fieldset {
 }
 .cropper .img-container,
 .cropper .img-preview {
-    background-color: #f7f7f7;
+    background-color: #262626;
     width: 100%;
     text-align: center
 }
@@ -3814,7 +3816,7 @@ fieldset {
     padding: 3px 20px
 }
 .cropper .docs-options .dropdown-menu>li:hover {
-    background-color: #f7f7f7
+    background-color: #262626
 }
 .cropper .docs-options .dropdown-menu>li>label {
     display: block
@@ -4152,7 +4154,7 @@ ul.notifications {
 }
 .fc-state-default {
     background: #f5f5f5;
-    color: #73879C
+    color: #F6F7F2
 }
 .fc-state-down,
 .fc-state-active {

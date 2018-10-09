@@ -1,0 +1,95 @@
+<div class="x_panel">
+  <div class="x_title">
+    <h2>Detalle de Colas</h2>
+    <div class="clearfix"></div>
+  </div>
+  <div class="x_content table-responsive">
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre Cola</th>
+          <th>Llamadas Activas</th>
+          <th>Llamadas Manejadas</th>
+          <th>Llamadas en Cola</th>
+          <th>Voice Mail</th>
+          <th>Llamadas Abandonadas</th>
+          <th>Tiempo de espera actual</th>
+          <th>Tiempo de espera más largo</th>
+          <th>Total de llamadas</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% if data_cola1['llamadas_en_cola'] > 0:%}
+          <tr style="background-color:#E74C3C; color:#FFFFFF; font-weight:bold;">
+        {% else %}
+          <tr>
+        {% endif %}
+          <th scope="row">1</th>
+          <td>{{data_cola1['nombre_cola']}}</td>
+          <td>{{data_cola1['llamadas_activas']}}</td>
+          <td>{{data_cola1['llamadas_manejadas']}}</td>
+          <td>{{data_cola1['llamadas_en_cola']}}</td>
+          <td>{{data_cola1['voice_mail']}}</td>
+          <td>{{data_cola1['llamadas_abandonadas']}}</td>
+          <td>{{data_cola1['tiempo_de_espera_actual']}}</td>
+          <td>{{data_cola1['tiempo_de_espera_mas_largo']}}</td>
+          <td>{{data_cola1['total_de_llamadas']}}</td>
+
+        </tr>
+        {% if data_cola2['llamadas_en_cola'] > 0:%}
+          <tr style="background-color:#E74C3C; color:#FFFFFF; font-weight:bold;">
+        {% else %}
+          <tr>
+        {% endif %}
+          <th scope="row">2</th>
+          <td>{{data_cola2['nombre_cola']}}</td>
+          <td>{{data_cola2['llamadas_activas']}}</td>
+          <td>{{data_cola2['llamadas_manejadas']}}</td>
+          <td>{{data_cola2['llamadas_en_cola']}}</td>
+          <td>{{data_cola2['voice_mail']}}</td>
+          <td>{{data_cola2['llamadas_abandonadas']}}</td>
+          <td>{{data_cola2['tiempo_de_espera_actual']}}</td>
+          <td>{{data_cola2['tiempo_de_espera_mas_largo']}}</td>
+          <td>{{data_cola2['total_de_llamadas']}}</td>
+
+        </tr>
+        {% if data_cola3['llamadas_en_cola'] > 0:%}
+          <tr style="background-color:#E74C3C; color:#FFFFFF; font-weight:bold;">
+        {% else %}
+          <tr>
+        {% endif %}
+          <th scope="row">3</th>
+          <td>{{data_cola3['nombre_cola']}}</td>
+          <td>{{data_cola3['llamadas_activas']}}</td>
+          <td>{{data_cola3['llamadas_manejadas']}}</td>
+          <td>{{data_cola3['llamadas_en_cola']}}</td>
+          <td>{{data_cola3['voice_mail']}}</td>
+          <td>{{data_cola3['llamadas_abandonadas']}}</td>
+          <td>{{data_cola3['tiempo_de_espera_actual']}}</td>
+          <td>{{data_cola3['tiempo_de_espera_mas_largo']}}</td>
+          <td>{{data_cola3['total_de_llamadas']}}</td>
+
+        </tr>
+        {% if data_cola4['llamadas_en_cola'] > 0:%}
+          <tr style="background-color:#E74C3C; color:#FFFFFF; font-weight:bold;">
+        {% else %}
+          <tr>
+        {% endif %}
+          <th scope="row">4</th>
+          <td>{{data_cola4['nombre_cola']}}</td>
+          <td>{{data_cola4['llamadas_activas']}}</td>
+          <td>{{data_cola4['llamadas_manejadas']}}</td>
+          <td>{{data_cola4['llamadas_en_cola']}}</td>
+          <td>{{data_cola4['voice_mail']}}</td>
+          <td>{{data_cola4['llamadas_abandonadas']}}</td>
+          <td>{{data_cola4['tiempo_de_espera_actual']}}</td>
+          <td>{{data_cola4['tiempo_de_espera_mas_largo']}}</td>
+          <td>{{data_cola4['total_de_llamadas']}}</td>
+
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
